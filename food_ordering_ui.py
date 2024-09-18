@@ -3,7 +3,7 @@ import data
 import functions
 def show_main_menu():
   while True:
-    print("Solomon diner") #edit to show your name
+    print("Musthak diner") #edit to show your name
     print("__________")
     print('N for a new order')
     print('X for close orders and print the check')
@@ -23,7 +23,7 @@ def make_order(menu_choice):
   item_code, quantity = user_selection.split()
   print(functions.get_item_information(item_code))
 
-def close_order(menu_choice):
+def close_order(menu_choice):N
   print('Functionality for menu choice ', menu_choice)
 
 
